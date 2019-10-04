@@ -1,0 +1,78 @@
+<!DOCTYPE HTML>
+<!--
+	Massively by HTML5 UP
+	html5up.net | @ajlkn
+  Jekyll integration by somiibo.com
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+    {% include head.html %}
+	</head>
+	<body class="is-loading">
+
+		<!-- Wrapper -->
+			<div id="wrapper" class="fade-in">
+
+				<!-- Header -->
+				<header id="header">
+					<a href="{{ "/" | absolute_url }}" class="logo">{{site.title}}</a>
+				</header>
+
+				<!-- Nav -->
+					<nav id="nav">
+
+            {% include nav.html %}
+
+					</nav>
+
+				<!-- Main -->
+				<div id="main">
+						<h2>Days Til Future Arts Fest:<div id="demo"></div></h2>
+
+					
+					<!-- Footer -->
+						<footer>
+            
+						</footer>
+					</div>
+
+				<!-- Footer -->
+        {% include foot.html %}
+
+			</div>
+
+			<!-- Scripts -->
+			{% include scripts-main.html %}
+			{% include tracking.html %}
+			<script>
+				var countDownDate = new Date("Nov 8, 2019 13:00:00").getTime();
+
+				// Update the count down every 1 second
+				var x = setInterval(function() {
+
+				// Get today's date and time
+				var now = new Date().getTime();
+
+				// Find the distance between now and the count down date
+				var distance = countDownDate - now;
+
+				// Time calculations for days, hours, minutes and seconds
+				var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+				var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+				var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+				var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+				// Display the result in the element with id="demo"
+				document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+				+ minutes + "m " + seconds + "s ";
+
+				// If the count down is finished, write some text
+				if (distance < 0) {
+					clearInterval(x);
+					document.getElementById("demo").innerHTML = "The Fest is here!";
+				}
+				}, 1000);
+			</script>
+	</body>
+</html>
