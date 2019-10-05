@@ -3,8 +3,8 @@ title:              Future Arts Fest
 bio:                'Kimmel 804 November 8th 1-4 pm - see you there!'
 description:        "Tech@NYU Presents: The Very First Future Arts Fest!"
 locale:             en_US
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site
+baseurl: "brad-davis.github.io/futureArtsFest" # the subpath of your site, e.g. /blog
+url: "brad-davis.github.io" # the base hostname & protocol for your site
 
 # Comments
 disqus_shortname:   default
