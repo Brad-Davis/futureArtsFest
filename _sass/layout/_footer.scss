@@ -7,6 +7,7 @@
 /* Footer */
 
 	#footer {
+		
 		@include color(alt);
 		@include vendor('display', 'flex');
 		background-color: _palette(alt, bg);
@@ -19,6 +20,7 @@
 		z-index: 2;
 
 		> section {
+			border-top: solid 2px _palette(alt, border);
 			@include vendor('flex-basis', '50%');
 			@include vendor('flex-grow', '1');
 			@include vendor('flex-shrink', '1');
