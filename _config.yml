@@ -4,15 +4,15 @@ bio:                'Kimmel 804 December 6th 1-5 pm - see you there!'
 description:        "Tech@NYU Presents: The Very First Future Arts Fest!"
 locale:             en_US
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://brad-davis.github.io" # the base hostname & protocol for your site
+url: "https://futurearts.techatnyu.org" # the base hostname & protocol for your site
 
 # Comments
 disqus_shortname:   default
 
 # Social
 analytics-id:       "default"
-twitter:            https://twitter.com/techatnyu
-facebook:           https://www.facebook.com/TechatNYU/
+twitter:            /techatnyu
+facebook:           /TechatNYU/
 
 
 # personal
