@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Kimmel 804 November 8th 1-4 pm - see you there!"
+title:  "Kimmel 804 December 6th 12-5 pm - see you there!"
 date:   2017-10-31
 excerpt: "Tech@NYU Presents: The Very First Future Arts Fest!"
 image: "/images/pic02.jpg"
